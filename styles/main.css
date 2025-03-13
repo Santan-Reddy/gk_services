@@ -595,7 +595,7 @@ body{
 
 /* Primary Button */
 .btn-primary {
-    background-color: #FEC223;
+    background-color: rgba(5,189,209);
     color: #1A1A1A;
     cursor: pointer;
     font-weight: 600;
@@ -608,12 +608,12 @@ body{
 }
 
 .btn-primary:hover {
-    background-color: #FFD766;
+    background-color: rgba(25,209,229);
 }
 
 /* Secondary Button */
 .btn-secondary {
-    background-color: #093469;
+    background-color: rgba(242,94,37);
     color: #F7F7F7;
     cursor: pointer;
     font-weight: 600;
@@ -626,13 +626,13 @@ body{
 }
 
 .btn-secondary:hover {
-    background-color: #0D50A3;
+    background-color: rgba(252,114,57);
 }
 
 /* Outline Button */
 .btn-outline {
-    border: 2px solid #093469;
-    color: #093469;    
+    border: 2px solid rgba(242,94,37);
+    color: rgba(242,94,37);    
     transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
     border-radius: 8px;
     padding: 8px 16px;
@@ -642,7 +642,7 @@ body{
 }
 
 .btn-outline:hover {
-    background-color: #093469;
+    background-color: rgba(242,94,37);
     color: #F7F7F7;
 }
 
@@ -659,7 +659,7 @@ body{
 
 /* Icon Button */
 .btn-icon {
-    background-color: #FEC223;
+    background-color: rgba(5,189,209);
     color: #1A1A1A;
     font-weight: 600;
     border-radius: 9999px;
@@ -668,12 +668,12 @@ body{
 }
 
 .btn-icon:hover {
-    background-color: #FFD766;
+    background-color: rgba(25,209,229);
 }
 
 /* Small Button */
 .btn-small {
-    background-color: #FEC223;
+    background-color: rgba(5,189,209);
     color: #1A1A1A;
     font-weight: 500;
     border-radius: 8px;
@@ -683,12 +683,12 @@ body{
 }
 
 .btn-small:hover {
-    background-color: #FFD766;
+    background-color: rgba(25,209,229);
 }
 
 /* Large Button */
 .btn-large {
-    background-color: #FEC223;
+    background-color: rgba(5,189,209);
     color: #1A1A1A;
     font-weight: 500;
     border-radius: 8px;
@@ -698,7 +698,7 @@ body{
 }
 
 .btn-large:hover {
-    background-color: #FFD766;
+    background-color: rgba(25,209,229);
 }
 
 .input-primary {
@@ -711,6 +711,5 @@ body{
 }
 
 .input-primary:focus {
-    border-color: #FEC223;
-    outline: none;
+    border-color: rgba(5,189,209);
 }

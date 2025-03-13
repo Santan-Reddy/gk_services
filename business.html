@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./styles/main.css">
+    <link rel="stylesheet" type="text/css" href="./styles/navbar.css">
+    <link rel="stylesheet" type="text/css" href="./styles/footer.css">
+    <link rel="stylesheet" type="text/css" href="./styles/business.css">
+    <title>Business Services</title>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    <script src="./script.js"></script>
+</head>
+<body>
+    <nav class=" bg-brand-blue flex items-center justify-between p-4">
+        <!-- <div class="brand flex items-center">
+            <a class="flex items-center gap-2 " href="./index.html">
+                <img src="./assets/images/NavbarLogo.png" alt="SFS" class="logo h-full">
+                <h1 class="text-brand-yellow">Singh Financial Services</h1>
+            </a>
+        </div>
+        <ul class="pages flex">
+            <li><a href="./taxes.html">Tax Services</a></li>
+            <li>
+                <a href="./payroll.html">Payroll Services</a>
+            </li>
+            <li><a href="./business.html">Business Services</a></li>
+            <li><a href="./immigration.html">Immigration Services</a></li>
+        </ul> -->
+        <div class="brand flex items-center desktop">
+            <a class="flex items-center gap-2" href="./index.html">
+                <img src="./assets/images/NavbarLogo.png" alt="SFS" class="logo h-full">
+                <h1 class="text-brand-yellow">Singh Financial Services</h1>
+            </a>
+        </div>
+        <div class="hamburger">
+            <img src="./assets/images/hamburger.svg" alt="menu">
+        </div>
+        <ul class="pages flex">
+            <li><a href="./taxes.html">Tax Services</a></li>
+            <li><a href="./payroll.html">Payroll Services</a></li>
+            <li><a href="./business.html">Business Services</a></li>
+            <li><a href="./immigration.html">Immigration Services</a></li>
+        </ul>
+        <div class="contact">
+            <a href="#footer"><button class="btn-primary">Contact Us</button></a>
+        </div>
+    </nav>
+    <main class="bg-off-white">
+        <section class="">
+            <div class="business">
+                <div class="title">
+                    <h2>Business Services</h2>
+                </div>
+                <div class="description">   
+                    <p>Financial management is crucial for any successful business. We offer comprehensive services to streamline your accounting, help incorporate your business, and provide strategic advice on business acquisitions and growth.</p>
+                </div>
+            </div>
+        </section>
+        <section class="bg-light-gray">
+            <div class="personal">
+                <div class="content">
+                    <h3>Accounting</h3>
+                    <div class="description">   
+                        <p>Accurate accounting forms the foundation of your business’s financial health. We provide reliable and comprehensive accounting services, including:</p>
+                    </div>
+                    <ul>
+                        <li><span class="bold">Bookkeeping Services:</span> Keep your financial records organized and up-to-date.</li>
+                        <li><span class="bold">Financial Statement Preparation:</span> Monthly, quarterly, and annual statements.</li>
+                        <li><span class="bold">Tax Preparation & Filing:</span> Ensure compliance with regulations.</li>
+                        <li><span class="bold">Cash Flow Management:</span> Manage cash flow to meet operational needs and growth.</li>
+                    </ul>
+                </div>
+                <div class="image">
+                    <img src="./assets/business-2.jpg" alt="Accounting">
+                </div>
+            </div>
+            <div class="personal-options">
+                <div class="image">
+                    <img src="./assets/business-1.png" alt="Business Incorporation">
+                </div>
+                <div class="content">
+                    <h3>Business Incorporation</h3>
+                    <ul>
+                        <li><span class="bold">Choosing the Right Structure:</span> LLCs, S-corporations, partnerships, and more.</li>
+                        <li><span class="bold">Filing Articles of Incorporation:</span> We handle paperwork to establish your business.</li>
+                        <li><span class="bold">Obtaining EIN:</span> Assistance with IRS registration for your business.</li>
+                        <li><span class="bold">Licensing & Permits:</span> Compliance with local, state, and federal regulations.</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <section class="bg-off-white">
+            <div class="consulting">
+                <div class="content">
+                    <h3>Payroll Solutions</h3>
+                    <div class="description">
+                        <p>Manage employee payments, tax filings, and reporting with ease. Our payroll solutions include:</p>
+                    </div>
+                    <ul>
+                        <li><span class="bold">Payroll Setup & Maintenance:</span> Ensure compliance and smooth operation.</li>
+                        <li><span class="bold">Year-End Payroll Reporting:</span> Preparation and filing of W-2s and 1099s.</li>
+                    </ul>
+                </div>
+                <div class="image">
+                    <img src="./assets/business-3.jpg" alt="Payroll Solutions">
+                </div>
+            </div>
+            <div class="business-options">
+                <div class="image">
+                    <img src="./assets/business-4.jpg" alt="Business Consulting">
+                </div>
+                <div class="content">
+                    <h3>Business Consulting (Buying & Selling)</h3>
+                    <ul>
+                        <li><span class="bold">Business Valuation:</span> Accurate valuations for buying or selling.</li>
+                        <li><span class="bold">Mergers & Acquisitions Strategy:</span> Guidance from due diligence to integration.</li>
+                        <li><span class="bold">Transaction Support:</span> Assistance in due diligence and financial analysis.</li>
+                        <li><span class="bold">Post-Acquisition Integration:</span> Financial and operational adjustments post-merger.</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <footer id="footer">
+            <div class="title">
+                <h2>Reach out to us </h2>
+                <h4>Singh Financial Services<br>Milwaukee, WI</h4>
+            </div>
+            <div class="footer">
+                <div class="left">
+                    <h3>Contact Us</h3>
+                    <div class="contact-details">
+                        <div class="contact-details-phone">
+                            <img src="./assets/images/phone.svg" alt="">
+                            <p class="flex flex-col gap-2"><span>Call Us : </span><a href="tel:+14145546339">+1 414-554-6339</a></p>
+                        </div>
+                        <div class="contact-details-email">
+                            <img src="./assets/images/email.svg" alt="">
+                            <p class="flex flex-col gap-2"><span>Email Us : </span><a href="mailto:singhtaxservicewi@gmail.com">Singhtaxservicewi@gmail.com</a></p>
+                        </div>
+                        <div class="contact-details-social">
+                            <p>Follow Us :</p>
+                            <a href="https://www.facebook.com/profile.php?id=100046954314841&mibextid=wwXIfr&rdid=v6dQt0nwb8Odt77y&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2F1B2xrr4mcH%2F%3Fmibextid%3DwwXIfr"><img src="./assets/images/facebook.svg" alt=""></a>
+                            <a href="https://www.instagram.com/singhtaxservice/"><img src="./assets/images/instagram.svg" alt=""></a>                            
+                        </div>
+                    </div>
+                    <div class="right ">
+                        <div class="location-details">
+                            <div class="location-details-address">
+                                <img src="./assets/images/location.svg" alt="">
+                                <p>7071 S 13TH ST SUITE 106 Oak Creek, WI, US 53154</p>
+                            </div>
+                            <div class="location-details-map">
+                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2921.91661721721!2d-87.93418532348097!3d42.916799499746396!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8805140719dae56b%3A0x59fb8e50d4fa55f6!2s7071%20South%2013th%20Street%20%23106%2C%20Oak%20Creek%2C%20WI%2053154%2C%20USA!5e0!3m2!1sen!2sin!4v1737830132370!5m2!1sen!2sin" width="100%" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="form">
+                    <form id="contactForm">
+                        <div class="form-title">
+                            <h3>Get In Touch</h3>
+                        </div>
+                        <div class="form-fields">
+                            <div class="form-field">
+                                <label for="name">Name</label>
+                                <input type="text" placeholder="Enter your name" id="name" name="from_name" >
+                                <small class="error-message" id="name-error"></small>
+                            </div>
+                            <div class="form-field">
+                                <label for="phone">Phone</label>
+                                <input type="tel" placeholder="1234567890" id="phone" name="phone" >
+                                <small class="error-message" id="phone-error"></small>
+                            </div>
+                            <div class="form-field">
+                                <label for="email">Email</label>
+                                <input type="email" placeholder="example@ex.com" id="email" name="from_email" >
+                                <small class="error-message" id="email-error"></small>
+                            </div>
+                            <div class="form-field">
+                                <label for="message">Tell us about your query</label>
+                                <textarea placeholder="Enter your message" id="message" name="message" ></textarea>
+                                <small class="error-message" id="message-error"></small>
+                            </div>
+                            <div class="form-submit">
+                                <!-- <button type="submit" class="btn-primary" onclick="sendMail(event)">Submit</button> -->
+                                <input type="submit" value="Send" class="btn-primary">
+                            </div>
+                            <div class="form-submitted-message">
+                                <p>Form submitted successfully!</p>
+                                <p>Thank you for reaching out to us. We will get back to you soon.</p>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                </div> 
+            </div>
+            <div class="copy-right">
+                <p>&copy; <span class="footer-year">2025</span> Singh Financial Services. All Rights Reserved.</p>
+            </div>
+        </footer>
+    </main>
+</body>
+</html>

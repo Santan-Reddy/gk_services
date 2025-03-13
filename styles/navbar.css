@@ -1,3 +1,29 @@
+.phone {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+    padding: 1rem;
+    background:#44A1A0;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    font-weight: 900;
+}
+.phone img {
+    width: 1.5rem;
+}
+.phone p{
+    font-weight: 700;
+}
+.phone a {    
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-weight: 600;
+}
 nav {
     display: flex;
     justify-content: space-between;
@@ -6,10 +32,11 @@ nav {
     background: linear-gradient(
         to right, 
         rgba(5, 189, 209, 0.2), 
-        rgba(242, 94, 37, 0.2)
-    );
+        hsla(17, 89%, 55%, 0.2)
+        );
 }
-
+    /* #f26026    
+    #05bdd1,  */
 .brand {
     display: flex;
     align-items: center;
@@ -58,6 +85,14 @@ nav ul li {
     margin: 4px;
     border-radius: 8px;
     transition: all 0.2s ease-in-out;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.2rem;
+}
+
+.pages li img {
+    width: 1.5rem;
 }
 
 .pages li a {
@@ -79,15 +114,23 @@ nav ul li:hover .dropdown {
     background-color: #f9f9f9;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-    padding: 12px 16px;
+    padding: 12px 2px;
     z-index: 1;
     border-radius: 0 8px 8px 8px;
-    margin-top: 16px;
-    margin-left: -4px;
+    border-radius: 4px;
+    top: 100%;
+    left: 0;
     list-style-type: none;
     gap: 0.5rem;
 }
-
+.dropdown a {
+    text-decoration: none;
+    color: #1A1A1A;
+    font-weight: 600;
+}
+.dropdown li:hover {
+    background-color: #dadada;
+}
 /* Logo size */
 nav .logo {
     width: 4rem;
