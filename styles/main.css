@@ -632,7 +632,8 @@ body{
 /* Outline Button */
 .btn-outline {
     border: 2px solid rgba(242,94,37);
-    color: rgba(242,94,37);    
+    color: rgba(242,94,37);
+    background: transparent;    
     transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
     border-radius: 8px;
     padding: 8px 16px;

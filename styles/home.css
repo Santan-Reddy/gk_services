@@ -22,7 +22,6 @@ main{
     align-items: center;
     width: 100%;
     height: 80%;
-    padding: 2rem;
 }
 .banner img{
     width: 100%;
@@ -32,17 +31,26 @@ main{
 }
 
 .content{
-    max-width: 500px;
+    /* max-width: 500px; */
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    background-color: rgba(0, 0, 0, 0.5);
     color: #F7F7F7;
-    margin-left: 2rem;
+    padding: 2rem;
 }
 .content h1{
     color: #F7F7F7;
     font-size: 3rem;
     font-weight: 600;
     margin-bottom: 1rem;
+    max-width: 700px;
 }
 .content p{
+    max-width: 700px;
     color: #F7F7F7;
     font-size: 1.2rem;
     margin-bottom: 1rem;
