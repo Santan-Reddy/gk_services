@@ -390,3 +390,9 @@ small {
     }
 }
 
+@media (max-width: 768px) {
+    .contactForm {
+        grid-template-columns: 1fr;
+        padding: 1.5rem;
+    }
+}

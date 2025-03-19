@@ -150,47 +150,6 @@ main{
     margin-bottom: 1rem;
 }
 
-/* Media Queries */
-@media (max-width: 768px) {
-    .hero{
-        flex-direction: column;
-        padding: 1rem;
-        padding-top: 3rem;
-    }
-    .content{
-        max-width: 100%;
-    }
-    .content h1{
-        font-size: 2rem;
-    }
-    .content p{
-        font-size: 1rem;
-    }
-    .services-list {
-        flex-direction: column;
-    }
-    .service {
-        flex: 1 1 100%;
-    }
-}
-
-@media (max-width: 576px) {
-    .hero{
-        padding: 1rem;
-        padding-top: 3rem;
-    }
-    .content h1{
-        font-size: 1.5rem;
-    }
-    .content p{
-        font-size: 0.9rem;
-    }
-    .btn-primary{
-        padding: 12px 20px;
-        font-size: 16px;
-    }
-}
-
 .brands {
     padding: 4rem 2rem;
     /* max-width: calc(100% - 8rem);     */
@@ -307,3 +266,72 @@ main{
     font-size: 1rem;
     margin-bottom: 1.5rem;
 }
+
+@media (max-width: 1200px) {
+    .hero {
+        flex-direction: column;
+        align-items: center;
+    }
+    .service img {
+        width: 100%;
+    }
+    .service {
+        flex-direction: column;
+        align-items: center;
+    }
+    .service-rev {
+        flex-direction: column;
+        align-items: center;
+    }
+    .why-us-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 992px) {
+    .hero {
+        padding: 2rem;
+        padding-top: 4rem;
+    }
+    .content h1 {
+        font-size: 2.5rem;
+    }
+    .service img {
+        height: auto;
+    }
+    .why-us-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 480px) {
+    .hero {
+        padding: 1rem;
+        padding-top: 2rem;
+    }
+    .content h1 {
+        font-size: 2rem;
+    }
+    .services {
+        padding: 2rem;
+    }
+    .service {
+        padding: 1rem;
+    }
+    .service-details h3 {
+        font-size: 1.2rem;
+    }
+    .service-details p {
+        font-size: 1rem;
+    }
+    .service-details ul li a {
+        font-size: 1rem;
+    }
+    .why-us-card h3 {
+        font-size: 1.1rem;
+    }
+    .why-us-card p {
+        font-size: 0.9rem;
+    }
+}
+

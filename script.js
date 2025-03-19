@@ -50,24 +50,27 @@ function validateForm() {
 document.addEventListener('DOMContentLoaded', function() {
     const hamburger = document.querySelector(".hamburger");
     hamburger.addEventListener("click", () => {
-        const navPages = document.querySelector(".pages");
-        navPages.classList.toggle("active");
+    const navPages = document.querySelector(".pages");
+    navPages.classList.toggle("active");
+    console.log("clicked");
+    
     });
-    const navItems = document.querySelectorAll('nav ul li');
+    const navItems = document.querySelectorAll("nav > ul.pages > li");
     navItems.forEach(item => {
-        item.addEventListener('click', function(e) {
-            // Check if we're in mobile view
-            if(window.innerWidth <= 792) {
-                const dropdown = this.querySelector('.dropdown');
+    item.addEventListener("click", function(e) {
+            if (window.innerWidth <= 792) {
+                if (e.target.closest("a")) return;        
+                const dropdown = this.querySelector(".dropdown");
                 if (dropdown) {
-                    // Prevent link navigation
                     e.preventDefault();
-                    // Toggle the 'active' class to show/hide the dropdown
-                    dropdown.classList.toggle('active');
+                    dropdown.classList.toggle("active");
+                } else {
+                    document.querySelector(".pages").classList.remove("active");
                 }
             }
         });
     });
+
     const footerYear = document.querySelector(".footer-year");
     const currentYear = new Date().getFullYear();
     footerYear.textContent = currentYear;

@@ -88,3 +88,47 @@ main{
     font-size: 1.2rem;
     color: #333;
 }
+
+@media (max-width: 768px) {
+    .service-hero {
+        height: 40vh;
+    }
+
+    .service-hero-content h2 {
+        font-size: 2rem;
+    }
+
+    .service-hero-content p {
+        font-size: 1.2rem;
+    }
+
+    .service-description .cards {
+        grid-template-columns: 1fr;
+    }
+
+    .service-description .cards .card {
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 480px) {
+    .service-hero {
+        height: 30vh;
+    }
+
+    .service-hero-content h2 {
+        font-size: 1.5rem;
+    }
+
+    .service-hero-content p {
+        font-size: 1rem;
+    }
+
+    .service-description {
+        padding: 2rem 1rem;
+    }
+
+    .service-description .cards .card {
+        padding: 1rem;
+    }
+}
