@@ -188,6 +188,7 @@ nav .logo {
         position: fixed;
         bottom: 2rem;
         right: 1rem;
+        z-index: 9999;
     }
 
     .hamburger {

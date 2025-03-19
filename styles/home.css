@@ -286,6 +286,18 @@ main{
     .why-us-grid {
         grid-template-columns: repeat(2, 1fr);
     }
+    .marquee-content {
+        animation: none;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .marquee .brand {
+        margin: 10px;
+    }
+    .marquee .brand img {
+        height: 60px;
+        margin: 5px;
+    }
 }
 
 @media (max-width: 992px) {
@@ -332,6 +344,6 @@ main{
     }
     .why-us-card p {
         font-size: 0.9rem;
-    }
+    }    
 }
 
